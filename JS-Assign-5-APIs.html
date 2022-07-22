@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <title>Assignment 5</title>
+		<link rel="stylesheet" type="text/css" href="a5-apis.css"/>
+		<script type="text/javascript" src="API.js" ></script>
+    </head>
+    <body>
+        
+        <h1>Humber Weather Station</h1>
+		
+	<!-- BUTTON BOX -->
+		<div id="choose_box">
+			<h2>Choose Your City:</h2>
+			<div id="buttons">
+				<button id="Toronto">Toronto</button>
+				<button id="Sudbury">Greater Sudbury</button>
+			</div>
+		</div>
+		<div id="errormsg"></div>
+	<!-- OUTPUT SECTION -->
+		<section id="output">
+			
+			<!-- CITY NAME AND WEATHER ICON-->
+			<h3>
+				<span id="location"></span> 
+				Local Weather: 
+				<span id="icon"></span>
+			</h3>
+			
+			<!-- TEMPERATURE -->
+			<p>Current temperature: 
+				<span id="temperature" class="displayText"></span>
+				<span id="" class="displayText"> &#8451;</span>
+				
+			</p>
+
+			<!-- CONDITIONS -->
+			<p>Current conditions:
+				<span id="conditions" class="displayText"></span>
+			</p>
+			
+			<!-- WIND -->
+			<p>Feels like:
+				<span id="feels_like" class="displayText"></span>
+				<span id="" class="displayText"> &#8451;</span>
+			</p>
+			
+			
+			
+		</section>
+
+    </body>
+</html>
